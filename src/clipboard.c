@@ -14,7 +14,7 @@
 
 static struct range_tree* clipboard_data = NULL;
 static struct encoding* clipboard_encoding = NULL;
-const char* binary_marker = "hexdump plain/text\n";
+const char* binary_marker = "";
 
 #define TIPPSE_BINARY_LINE_LENGTH 128
 

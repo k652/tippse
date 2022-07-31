@@ -1,9 +1,9 @@
 {
   colors:{
-    background:background,
-    text:foreground,
-    selection:foreground,
-    status:grey,
+    background:black,
+    text:white,
+    selection:red,
+    status:yellow,
     frame:foreground,
     type:green,
     keyword:yellow,
@@ -14,7 +14,7 @@
     bracket:blue,
     plus:lime,
     minus:red,
-    linenumber:grey,
+    linenumber:aqua,
     bracketerror:red,
     consolenormal:grey,
     consolewarning:yellow,

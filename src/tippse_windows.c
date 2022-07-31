@@ -303,7 +303,7 @@ int WINAPI WinMain(HINSTANCE instance, HINSTANCE prev_instance, char* command_li
   }
   free(argv);
 
-  window = CreateWindowEx(0, wndclass.lpszClassName, "Tippse", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, NULL, NULL, wndclass.hInstance, &base);
+  window = CreateWindowEx(0, wndclass.lpszClassName, "Tippse", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 1100, 720, NULL, NULL, wndclass.hInstance, &base);
   SetWindowLongPtr(window, GWLP_USERDATA, (LONG_PTR)&base);
   ShowWindow(window, show);
 
